@@ -63,7 +63,7 @@ const Navbar = () => {
     });
   };
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-950">
       {({ open }) => (
         <>
           <div className="mx-auto w-full max-w-7xl items-center justify-between pr-0 sm:px-6 sm:pr-0 lg:px-8 lg:pr-0">
@@ -82,11 +82,11 @@ const Navbar = () => {
               </div>
               <div className="flex flex-1 items-center justify-around sm:items-stretch sm:justify-start ">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
+                  {/* <img
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
-                  />
+                  /> */}
                 </div>
                 <div className="absolute right-0 flex divide-x">
                   <div className="hidden sm:ml-6 sm:block">
